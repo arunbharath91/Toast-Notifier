@@ -4,7 +4,7 @@
 
 Bug:- Performance issue under js Testbench.
 
-live demo:aruncoolpage.co.nf/PluginDemo
+live demo:http://aruncoolpage.co.nf/PluginDemo/Toast-notifier/
 
 plugin author: M.Arun Bharath s/o A.Mathiyazhalagan
 
