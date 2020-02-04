@@ -1,0 +1,28 @@
+{
+  "name": "toast-notifier",
+  "version": "1.0.0",
+  "description": "**Toast-notifier plugin is added **Supports most of the screen sizes including tablets and mobiles. **licenced under the category of open-source free licence crendentials. **The information like company name or anything provided in this plugin is only an fake one.",
+  "main": "toaster.js",
+  "scripts": {
+    "start": "node dist/toaster.js",
+    "dev": "nodemon src/toaster.ts",
+    "build": "tsc -p src/tsconfig.app.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/arunbharath91/Toast-notifier.git"
+  },
+  "author": "arunbharath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunbharath91/Toast-notifier/issues"
+  },
+  "homepage": "https://github.com/arunbharath91/Toast-notifier#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  }
+}
