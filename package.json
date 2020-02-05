@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node dist/toaster.js",
     "dev": "nodemon src/toaster.ts",
-    "build": "tsc -p src/tsconfig.app.json"
+    "build": "tsc -p src/tsconfig.app.json && copyfiles -u 1 src/**/*.html src/**/*.css src/assets/**/* dist"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/arunbharath91/Toast-notifier#readme",
   "devDependencies": {
+    "copyfiles": "^2.2.0",
     "nodemon": "^2.0.2",
     "ts-loader": "^6.2.1",
     "ts-node": "^8.6.2",
