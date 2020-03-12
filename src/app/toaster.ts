@@ -7,14 +7,14 @@ interface IOptions {
   selfClose?: boolean
 }
 
-const toaster = {
-  success: (options: IOptions) => {
+export const toaster = {
+  success: (options?: IOptions) => {
     (typeof options === 'undefined') ? new initToast(({} as IOptions), 'success') : new initToast(options, 'success');
   },
-  info: (options: IOptions) => {
+  info: (options?: IOptions) => {
     (typeof options === 'undefined') ? new initToast(({} as IOptions), 'info') : new initToast(options, 'info');
   },
-  error: (options: IOptions) => {
+  error: (options?: IOptions) => {
     (typeof options === 'undefined') ? new initToast(({} as IOptions), 'error') : new initToast(options, 'error');
   },
   warning: (options?: IOptions) => {
