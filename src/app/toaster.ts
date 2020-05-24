@@ -28,7 +28,7 @@ class initToast {
     this.bootToast(userOptions, toastType);
   }
 
-  bootToast(userOptions: IOptions, toastType: any) {
+  private bootToast(userOptions: IOptions, toastType: any) {
     const defaultOptions = {
       toastData: userOptions.toastData || 'Hello Sunny',
       prependTo: userOptions.prependTo || document.body.childNodes[0],
